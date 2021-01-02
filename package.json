@@ -1,6 +1,6 @@
 {
   "name": "integrity-checker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Easily verify the integrity of files within a project.",
   "main": "./dist/index.js",
   "bin": {
