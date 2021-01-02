@@ -1,0 +1,39 @@
+{
+  "name": "fileintegrity",
+  "version": "1.0.1",
+  "description": "Easily verify the integrity of files within a project.",
+  "main": "./dist/index.js",
+  "bin": {
+    "integrity": "./bin/integrity"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CurveSolutions/File-Integrity.git"
+  },
+  "keywords": [
+    "file integrity",
+    "file",
+    "integrity",
+    "check",
+    "checks",
+    "nerve",
+    "nerveyyyy",
+    "file integrity checker",
+    "file integrity check",
+    "file integrity checks"
+  ],
+  "author": "Nerve#0001 <nerve@curvesolutions.dev> (https://curvesolutions.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CurveSolutions/File-Integrity/issues"
+  },
+  "homepage": "https://github.com/CurveSolutions/File-Integrity",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security"
+  }
+}
