@@ -1,5 +1,5 @@
 {
-  "name": "fileintegrity",
+  "name": "integrity-checker",
   "version": "1.0.2",
   "description": "Easily verify the integrity of files within a project.",
   "main": "./dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CurveSolutions/File-Integrity.git"
+    "url": "https://github.com/CurveSolutions/Integrity-Checker.git"
   },
   "keywords": [
     "file integrity",
@@ -28,9 +28,9 @@
   "author": "Nerve#0001 <nerve@curvesolutions.dev> (https://curvesolutions.dev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CurveSolutions/File-Integrity/issues"
+    "url": "https://github.com/CurveSolutions/Integrity-Checker/issues"
   },
-  "homepage": "https://github.com/CurveSolutions/File-Integrity",
+  "homepage": "https://github.com/CurveSolutions/Integrity-Checker",
   "dependencies": {
     "commander": "^6.2.1",
     "crypto": "^1.0.1",

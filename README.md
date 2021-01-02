@@ -1,4 +1,4 @@
-# File Integrity
+# Integrity Checker
 Easily verify the integrity of files within a project.
 
 * Easily check whether a file has been modified
@@ -16,12 +16,12 @@ Use npm to install it:
 
 cd into the root directory of your project, where the package.json file is located and do:
 ```
-> npm install file-integrity --save
+> npm install integrity-checker --save
 ```
 
 import it into your project:
 ```JavaScript
-const integrity = require("file-integrity");
+const integrity = require("integrity-checker");
 
 function integrityCheck() {
     if (integrity.checkDir("./", "Key", "IV")) {
@@ -37,12 +37,12 @@ Use npm to install it:
 
 cd into the root directory of your project, where the package.json file is located and do:
 ```
-> npm install file-integrity --save
+> npm install integrity-checker --save
 ```
 
 import it into your project:
 ```JavaScript
-import integrity from "file-integrity";
+import integrity from "integrity-checker";
 
 function integrityCheck() {
     if (integrity.checkDir("./", "Key", "IV")) {
