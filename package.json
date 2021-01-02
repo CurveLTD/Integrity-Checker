@@ -4,7 +4,7 @@
   "description": "Easily verify the integrity of files within a project.",
   "main": "./dist/index.js",
   "bin": {
-    "integrity": "./bin/integrity"
+    "integrity": "./bin/integrity.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\""
